@@ -1,0 +1,3 @@
+[submodule "multidimensional_uncertainty"]
+	path = multidimensional_uncertainty
+	url = https://github.com/stat-ml/multidimensional_uncertainty/tree/main
