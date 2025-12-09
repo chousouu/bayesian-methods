@@ -12,11 +12,8 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm, trange
 
 from common import create_results_folder
-from uncertainties import (
-    uncertaintyOT,
-    mahalanobis_dist, 
-    MSP
-)
+from uncertainties import uncertaintyOT, mahalanobis_dist, MSP
+
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
